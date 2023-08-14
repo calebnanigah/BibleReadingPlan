@@ -1221,7 +1221,7 @@
     function shareMessageOnWhatsApp($date, $chapters){
         $messageToShare = "
 
-        *$date* ".rawurlencode("\n") .rawurlencode("\n")."Hey Brother!. Hey Sister!. ".rawurlencode("\n") .rawurlencode("\n")."Be Grounded in Christ through the reading of the Bible.".rawurlencode("\n") .rawurlencode("\n")."Please these are the chapters we will read for the day.👇🏻👇🏻👇🏻".rawurlencode("\n") .rawurlencode("\n")."*$chapters*".rawurlencode("\n") .rawurlencode("\n")."Remember when you finish you show by this emoji✋ God bless you as you read.🙏🏽";
+        *$date* ".rawurlencode("\n") .rawurlencode("\n")."Hey Brother!. Hey Sister!. ".rawurlencode("\n") .rawurlencode("\n")."Be Grounded in Christ through the reading of the Bible.".rawurlencode("\n") .rawurlencode("\n")."Please these are the chapters we will read for the day.👇🏻👇🏻👇🏻".rawurlencode("\n") .rawurlencode("\n")."*$chapters*".rawurlencode("\n") .rawurlencode("\n")."Remember when you finish you show by this emoji✋ God bless you as you read. 🙏🏽 ".rawurlencode("\n")." _[Reading Plan here:http://biblereadingplan.rf.gd/]_";
 
         $WhatsAppLine ="https://api.whatsapp.com/send?text=$messageToShare";
 
